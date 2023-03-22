@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+ 
+}
+
+:root {
+
+ --text-color-one: #3E114A;
+ --text-color-two:  #E78651;
+ --text-color-three: #9B1844;
+ --text-color-fuor: #FDBF58;
+ --text-color-five: #CD3E48;
+
+}
+
+
+body {
+    background-image: url('https://cdn.openai.com/labs/images/A%20synthwave%20style%20sunset%20above%20the%20reflecting%20water%20of%20the%20sea,%20digital%20art.webp?v=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layout{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.notas{
+    border: solid 5px var(--text-color-two);
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    width: 10%;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px;
+
+}
+
+.instrument{
+    color: var(--text-color-one);
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.key{
+    color: var(--text-color-five);
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 10px;
+    margin-top: 0;
+    font-weight: 800;
+}
+
+header{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+}

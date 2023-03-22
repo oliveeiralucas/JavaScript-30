@@ -1,0 +1,23 @@
+Esse é um site que estou desenvolvendo para aprimorar minhas habilidades em front end 
+
+Esse exemplo consiste de uma página que muda o som que está sendo tocada quando clicado em um botão 
+
+Cores: 
+#3E114A
+#E78651
+#9B1844
+#FDBF58
+#CD3E48
+
+
+Instrumentos utilizados:
+
+clap
+hihat
+kick
+openhat
+boom
+ride
+snare
+tom
+
