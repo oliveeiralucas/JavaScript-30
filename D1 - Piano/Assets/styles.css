@@ -18,12 +18,15 @@
 
 }
 
-
 body {
     background-image: url('https://cdn.openai.com/labs/images/A%20synthwave%20style%20sunset%20above%20the%20reflecting%20water%20of%20the%20sea,%20digital%20art.webp?v=1');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+ /* Media Carrie para desktop*/
+@media screen and (min-width: 1280px) {
+
 
 .layout{
     display: flex;
@@ -32,16 +35,7 @@ body {
     height: 50%;
     justify-content: center;
     align-items: center;
-}
-
-.layout2{
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 .notas{
@@ -96,3 +90,136 @@ button{
     margin: 0;
     border: none;
 }
+}
+
+/*======================================*/
+ /* Media Carrie para celulares*/
+  @media screen and (max-width: 480px) {
+    /* Seu código CSS aqui */
+body{
+        overflow-x: hidden;
+}
+header{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+
+button{
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    }
+
+.key{
+    color: var(--text-color-five);
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 0;
+    margin: 10px;
+    margin-top: 0;
+    font-weight: 800;
+}
+
+.instrument{
+    color: var(--text-color-one);
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.notas{
+    border: solid 5px var(--text-color-two);
+    border-radius: 20px;
+    margin: 20px;
+    position: relative;
+    display: flex;
+    width: 90%;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px;
+
+}
+
+  }
+
+
+   /* Media Carrie para tablets*/
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+    /* Seu código CSS aqui */
+    body{
+        overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    }
+
+.coluna {
+    width: 30%;
+    margin: 10px;
+
+    }
+
+header, .layout {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 20px;
+    }
+
+button {
+    background: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.key {
+    color: var(--text-color-five);
+    text-transform: capitalize;
+    font-size: 3rem;
+    padding: 0;
+    margin: 10px;
+    margin-top: 0;
+    font-weight: 800;
+    }
+    
+    .instrument {
+    color: var(--text-color-one);
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-top: 0;
+    }
+    
+.notas {
+    border: solid 5px var(--text-color-two);
+    border-radius: 20px;
+    max-width: 400px;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    flex-direction: column;
+    align-content: center;
+    padding: 10px;
+    }
+  }
